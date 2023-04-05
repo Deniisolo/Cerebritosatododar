@@ -6,10 +6,8 @@ const formulario_login = document.getElementById('login');
 const input_usuario = document.getElementById('Usuario');
 
 
-
 // comenzar variable de ultimo valor del input
 let ultimoValor = '';
-
 
 
 // Agregar un event listener al input para que escuche cuando el usuario escribe
