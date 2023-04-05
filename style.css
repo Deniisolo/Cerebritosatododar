@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 form label {
     display: block;
@@ -11,13 +11,26 @@ form label {
   header {
     text-align: center;
     margin-top: 30px;
+    color: #464444;
   }
 main{
     text-align: center;
   }
-  h1, h3, h5 {
-    margin-top: 30px;
+  h1 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .texto-header {
+    color: #464444;
     margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 14px;
+  }
+  .texto-password {
+    font-size: 15px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    color: #000000;
   }
   form{
     display: inline-block;
@@ -27,18 +40,25 @@ form input[type="text"],
 form input[type="password"] {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #eeecec;
   }
 form button {
-    background-color: rgb(255, 167, 252);
+    background-color: #fb9ceb;
     border: none;
-    border-radius: 5px;
-    height: 60px;
-    width: 100px;
-    color: #eeecec;
+    border-radius: 10px;
+    height: 50px;
+    width: 270px;
+    color: #ffffff;
     font-size: 18px;
     font-weight: bold;
 }
+.texto-final {
+  color: #464444;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
