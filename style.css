@@ -55,14 +55,47 @@ form button {
     font-size: 18px;
     font-weight: bold;
 }
-.texto-final {
+.texto-final-p {
   color: #464444;
   font-size: 12px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15  px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
 }
 .footer1{
-height: 10px;
-width: 10px;
-background-color: #fb9ceb;
+height: 4px;
+width: 80px;
+background: linear-gradient(to right, #ffffff, #fb9ceb);
+margin-top: 20px;
 }
+.footer2 {
+height: 4px;
+width: 80px;
+background: linear-gradient(to right, #fb9ceb, #ffffff);
+margin-top: 20px;
+}
+.texto-final {
+  display: flex;
+  justify-content: center;
+}
+.cuentas{
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  background-color: rgb(234, 226, 226);
+  margin-top: 20px;
+  border-radius: 30px;
+}
+.container-cuentas, .cuentas {
+  display: flex;
+  justify-content: center;
+}
+.cuentas img {
+  height: 40px;
+  width: 40px;
+  padding: 0%;
+  margin-top: 10px;
+}
+
