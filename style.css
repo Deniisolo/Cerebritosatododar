@@ -27,10 +27,11 @@ main{
     font-size: 14px;
   }
   .texto-password {
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 100px;
     margin-bottom: 10px;
     color: #000000;
+    font-weight: bold;
   }
   form{
     display: inline-block;
@@ -44,6 +45,7 @@ form input[type="password"] {
     border: none;
     border-radius: 10px;
     background-color: #eeecec;
+    box-shadow: 2px 2px 5px rgba(124, 114, 114, 0.3);
   }
 form button {
     background-color: #fb9ceb;
@@ -55,11 +57,14 @@ form button {
     font-size: 18px;
     font-weight: bold;
 }
+form button:hover{
+  background-color: #ffbdf4;
+}
 .texto-final-p {
   color: #464444;
   font-size: 12px;
   text-align: center;
-  margin-top: 15  px;
+  margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
   padding: 0px;
@@ -87,6 +92,7 @@ margin-top: 20px;
   background-color: rgb(234, 226, 226);
   margin-top: 20px;
   border-radius: 30px;
+  border: 1px solid #fb9ceb;
 }
 .container-cuentas, .cuentas {
   display: flex;
@@ -97,5 +103,8 @@ margin-top: 20px;
   width: 40px;
   padding: 0%;
   margin-top: 10px;
+}
+.cuentas:hover{
+  background-color: #ededed;
 }
 
