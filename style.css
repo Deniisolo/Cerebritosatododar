@@ -47,6 +47,10 @@ form input[type="password"] {
     background-color: #eeecec;
     box-shadow: 2px 2px 5px rgba(124, 114, 114, 0.3);
   }
+  form input[type="text"]:hover,
+form input[type="password"]:hover{
+  background-color: #c4c3c3;
+}
 form button {
     background-color: #fb9ceb;
     border: none;
@@ -56,10 +60,12 @@ form button {
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
 }
 form button:hover{
   background-color: #ffbdf4;
 }
+
 .texto-final-p {
   color: #464444;
   font-size: 12px;
@@ -103,6 +109,7 @@ margin-top: 20px;
   width: 40px;
   padding: 0%;
   margin-top: 10px;
+  cursor: pointer;
 }
 .cuentas:hover{
   background-color: #ededed;
